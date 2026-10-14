@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b1a">
+  <meta name="description" content="Hamsini S — aspiring software developer and Computer Science Engineering student.">
+  <title>Hamsini S | Aspiring Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background-glow glow-one" aria-hidden="true"></div>
+  <div class="background-glow glow-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Hamsini home"><span class="brand-mark">H</span><span>HAMSINI<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE & ENGINEERING</div>
+        <p class="hello">Hello, I'm</p>
+        <h1>Hamsini <span class="gradient-text">S.</span></h1>
+        <h2>Aspiring Software Developer<span class="cursor">_</span></h2>
+        <p class="hero-description">A motivated CSE student exploring software development, AI, and innovative technology solutions. I enjoy turning ideas into practical projects and learning by building.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore Projects <span>↘</span></a>
+          <a class="button button-secondary" href="resume.pdf" download id="resumeButton">Download Resume <span>↓</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> IFET College of Engineering</span><span><i class="meta-line"></i> CGPA 8.75*</span></div>
+        <p class="tiny-note">*Up to 3rd semester, as listed in the résumé.</p>
+      </div>
+      <div class="hero-visual reveal" aria-label="Hamsini profile photo with futuristic decorative rings">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="profile-photo-frame"><img class="profile-photo" src="hamsini.jpg" alt="Hamsini S profile photo"></div>
+        <div class="floating-card card-code"><span class="mini-icon">&lt;/&gt;</span><div><strong>Build</strong><small>Learn by doing</small></div></div>
+        <div class="floating-card card-ai"><span class="mini-icon">✳</span><div><strong>Explore AI</strong><small>Curiosity in motion</small></div></div>
+        <div class="visual-caption"><span class="caption-line"></span><span>CREATIVE THINKING · CONTINUOUS LEARNING</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading reveal"><p class="section-kicker">01 / ABOUT ME</p><h2>Curious mind.<br><span class="gradient-text">Practical mindset.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy glass-card reveal"><p class="large-copy">I'm a Computer Science and Engineering student at <strong>IFET College of Engineering, Villupuram.</strong></p><p>I have skills in C, Python, SQL and Web Development, with an interest in software development, Artificial Intelligence and innovative technology solutions. My internship at Nexgen Technology gave me practical exposure to web development concepts and implementation.</p><p>I like learning through hands-on work and exploring how technology can solve everyday problems.</p><div class="about-signature">Hamsini S <span>— Aspiring Developer</span></div></div>
+        <div class="about-stats reveal"><article class="stat-card"><span class="stat-number">8.75</span><span class="stat-label">CGPA · Up to 3rd semester</span><span class="stat-orb"></span></article><article class="stat-card"><span class="stat-number">02</span><span class="stat-label">Projects listed</span><span class="stat-orb"></span></article><article class="stat-card"><span class="stat-number">01</span><span class="stat-label">Web development internship</span><span class="stat-orb"></span></article></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading reveal"><p class="section-kicker">02 / TOOLKIT</p><h2>Skills I'm <span class="gradient-text">building with.</span></h2><p class="section-subtitle">A snapshot of the skills listed in my résumé.</p></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><div class="skill-icon">C</div><h3>Programming</h3><div class="chip-list"><span>C</span><span>Python</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Data & Web</h3><div class="chip-list"><span>SQL</span><span>Web Development</span></div></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>Creative & Digital</h3><div class="chip-list"><span>Canva Basics</span><span>Digital Marketing</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading reveal"><p class="section-kicker">03 / SELECTED WORK</p><h2>Projects with a <span class="gradient-text">purpose.</span></h2><p class="section-subtitle">Project summaries are based on the details in my résumé.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-one reveal"><div class="project-art posture-art"><div class="scan-ring"></div><div class="posture-person"><span class="person-head"></span><span class="person-body"></span><span class="person-leg leg-left"></span><span class="person-leg leg-right"></span></div><span class="sensor-point point-one"></span><span class="sensor-point point-two"></span><span class="sensor-point point-three"></span><span class="art-label">SENSOR / POSTURE</span></div><div class="project-content"><div class="project-topline"><span class="project-index">PROJECT 01</span><span class="project-type">IoT · Sensors</span></div><h3>Wrong Posture Muscle Strain Detector Using Sensor</h3><p>A sensor-based concept to identify poor posture and help prevent muscle fatigue using IoT technology.</p><div class="project-tags"><span>IoT</span><span>Sensor-based</span><span>Wellness</span></div><button class="text-link project-details" data-project="posture">View summary <span>↗</span></button></div></article>
+        <article class="project-card project-two reveal"><div class="project-art calories-art"><div class="chart-grid"></div><div class="chart-bars"><i style="--bar:34%"></i><i style="--bar:56%"></i><i style="--bar:43%"></i><i style="--bar:78%"></i><i style="--bar:64%"></i><i style="--bar:92%"></i></div><div class="chart-orbit"></div><div class="chart-label">ML / PREDICTION</div><div class="chart-number">CAL<span>+</span></div></div><div class="project-content"><div class="project-topline"><span class="project-index">PROJECT 02</span><span class="project-type">Python · ML</span></div><h3>Calories Burnt Prediction Using Machine Learning with Python</h3><p>A machine learning project designed to predict calories burned during exercise using user and activity data.</p><div class="project-tags"><span>Python</span><span>Machine Learning</span><span>Prediction</span></div><button class="text-link project-details" data-project="calories">View summary <span>↗</span></button></div></article>
+      </div>
+      <p class="project-disclaimer">Visuals are illustrative concepts, not photographs or verified screenshots of the actual projects.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="journey">
+      <div class="section-heading reveal"><p class="section-kicker">04 / MY JOURNEY</p><h2>Learning, one step <span class="gradient-text">at a time.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">FEBRUARY 2025</div><div class="timeline-card"><div class="timeline-heading"><div><h3>Web Development Intern</h3><p class="timeline-place">Nexgen Technology · Pondicherry</p></div><span class="timeline-badge">Internship</span></div><p>Gained practical exposure to web development concepts and their implementation.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">JULY 2025 — PRESENT</div><div class="timeline-card"><div class="timeline-heading"><div><h3>B.E. Computer Science and Engineering</h3><p class="timeline-place">IFET College of Engineering · Villupuram</p></div><span class="timeline-badge">CGPA 8.75*</span></div><p>Continuing undergraduate studies in Computer Science and Engineering.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">MAY 2023</div><div class="timeline-card"><div class="timeline-heading"><div><h3>Higher Secondary Certificate (HSC)</h3><p class="timeline-place">Soorya International Higher Secondary School · Pondicherry</p></div><span class="timeline-badge">84%</span></div><p>Completed higher secondary education.</p></div></article>
+      </div>
+      <p class="tiny-note">*CGPA is reported up to 3rd semester in the résumé.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="certificates">
+      <div class="section-heading reveal"><p class="section-kicker">05 / MILESTONES</p><h2>Certifications & <span class="gradient-text">achievements.</span></h2></div>
+      <div class="cert-grid reveal">
+        <article class="cert-card"><span class="cert-symbol">✧</span><div><h3>NPTEL Certification</h3><p>Certification listed in résumé</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card"><span class="cert-symbol">◎</span><div><h3>Infosys Certification</h3><p>Certification listed in résumé</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card"><span class="cert-symbol">⌁</span><div><h3>Advanced Arduino Programming</h3><p>ATAL PTU</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card"><span class="cert-symbol">Py</span><div><h3>Python Certification</h3><p>NIELIT Calicut</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card"><span class="cert-symbol">✦</span><div><h3>Consolidation Prize</h3><p>Paper Presentation</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card"><span class="cert-symbol">↗</span><div><h3>Industrial Visit</h3><p>Gradwin · Chennai</p></div><span class="cert-arrow">↗</span></article>
+        <article class="cert-card"><span class="cert-symbol">ISTE</span><div><h3>ISTE Member</h3><p>Membership listed in résumé</p></div><span class="cert-arrow">↗</span></article>
+      </div>
+      <p class="project-disclaimer">Specific course titles, certificate dates and credential links can be added when available.</p>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-panel reveal"><div class="contact-orb"></div><p class="section-kicker">06 / LET'S CONNECT</p><h2>Have an opportunity<br>in mind? <span class="gradient-text">Let's talk.</span></h2><p class="contact-description">I'm interested in learning opportunities, internships and entry-level experiences where I can grow as a developer.</p><div class="contact-actions"><a class="button button-primary" href="mailto:hamsimotchi31@gmail.com">Email Me <span>↗</span></a><a class="button button-secondary" href="https://www.linkedin.com/in/hamsini-senthil-kumar-45538b321/" target="_blank" rel="noopener noreferrer" aria-label="Open Hamsini LinkedIn profile">LinkedIn Profile <span>↗</span></a><button class="button button-secondary" id="copyEmail" data-email="hamsimotchi31@gmail.com">Copy Email <span>⧉</span></button></div><p class="contact-email"><span class="status-dot"></span> hamsimotchi31@gmail.com</p><p class="contact-phone">Phone: +91 9345882133</p><p class="contact-privacy">Contact details are displayed from the supplied résumé. Remove the phone number before publishing if you prefer not to make it public.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">H</span><span>HAMSINI<span class="brand-dot">.</span></span></a><p>Designed with curiosity. Built for what's next.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="footer-line"></span><small>© <span id="year"></span> Hamsini S · Personal Portfolio</small></footer>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle"><button class="dialog-close" id="dialogClose" aria-label="Close project summary">×</button><p class="section-kicker">PROJECT SUMMARY</p><h2 id="dialogTitle">Project</h2><p id="dialogDescription"></p><div class="dialog-note">More technical details, project screenshots and results can be added when verified information is available.</div><button class="button button-primary" id="dialogDone">Got it</button></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
